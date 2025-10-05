@@ -1,1 +1,86 @@
-/* your code here */
+*{
+	padding:0;
+	margin:0;
+}
+.product{
+	display:flex;
+	justify-content:space-around;
+
+}
+.photo-container{
+	display:flex;
+	flex-direction:column;
+}
+.photo-main{
+	background-color:#B3E93B;
+}
+.controls{
+	font-size:20px;
+	color:white;
+	padding:10px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.photo-album ul{
+	gap:10px;
+	padding:30px;
+	display:flex;
+	justify-content:center;
+	list-style-type: none;
+}
+.photo-album ul li{
+	border:1px solid #B0B0B0;
+	border-radius:5px;
+}
+.product__info{
+	display:flex;
+	flex-direction:column;
+}
+.title{
+	padding:30px 0;
+}
+.title span{
+	color:#B0B0B0;
+}
+.price{
+	color:#FE3F40;
+	padding:30px 0;
+}
+.price span{
+	font-size:60px;
+}
+.variant{
+	padding:30px 0;
+}
+.variant h3{
+	color:#B0B0B0;
+}
+.variant ul{
+	padding:30px 50px;
+	display:flex;
+	justify-content:center;
+	list-style-type: none;
+}
+.variant ul li:first-child{
+	border:1px solid #B0B0B0;
+	border-radius:5px;
+}
+.description h3{
+	color:#B0B0B0;
+}
+.description ul{
+	padding:10px 30px;	
+}
+.add-to-cart{
+	padding:10px;	
+}
+.add-to-cart button{
+	background-color:#FE3F40;
+	color:white;
+	border:none;
+	border-radius:5px;
+	padding:15px 50px;
+	cursor:pointer;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
